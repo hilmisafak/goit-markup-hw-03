@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+a {
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+p {
+  color: #434455;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.sec-1 {
+  background-color: #2e2f42;
+  height: 600px;
+}
+
+.sec-3 {
+  background-color: #f4f4fd;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #2e2f42;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer > p {
+  color: #f4f4fd;
+  text-align: left;
+}
+
+.nav-item,
+.nav-item > a {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.address-item,
+.address-item > a {
+  color: #434455;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+}
+
+.btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 12px 24px;
+  width: 169;
+  height: 56;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.feature-item {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.team-card-item {
+  background-color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+
+.project-card-item {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-item > a:hover,
+.nav-item > a:focus {
+  color: #404bbf;
+}
+
+.nav-item > a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-item > a:hover,
+.address-item > a:focus {
+  color: #404bbf;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
