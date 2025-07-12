@@ -66,6 +66,14 @@ ul {
   padding: 24px 0;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -78,7 +86,7 @@ ul {
 }
 
 .logo-header {
-  margin-right: auto;
+  margin-right: 191px;
 }
 
 .navbar ul {
@@ -103,6 +111,7 @@ ul {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address ul {
@@ -118,12 +127,6 @@ ul {
 .address-item a:hover,
 .address-item a:focus {
   color: #404bbf;
-}
-
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* Section - 1 */
