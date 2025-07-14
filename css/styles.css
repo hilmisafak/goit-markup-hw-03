@@ -134,10 +134,9 @@ ul {
   text-align: center;
   background-color: #2e2f42;
   color: #ffffff;
-}
-.sec-1 > div {
   height: 600px;
 }
+
 .title {
   font-size: 56px;
   font-weight: 700;
